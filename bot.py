@@ -1,6 +1,6 @@
 import telegram
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters
-updater = Updater('676492580:AAEXc57u-o21UQno2_Ue2U0d0brtxtuXsvk')
+updater = Updater('<token>')
 
 def start(bot, update):
     custom_keyboard = [
